@@ -23,7 +23,7 @@
 
                 <Label Text="Information" FontSize="Medium"/>
                 <Label Text="{Binding Recipe.PricePerServing, StringFormat=' - Costs about {0} CAD per serving'}" FontSize="Small"/>
-                <Label Text="{Binding Recipe.Servings, StringFormat=' - Serves about {0} people'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.Servings, StringFormat=' - Serves about {0} meals'}" FontSize="Small"/>
                 <Label Text="{Binding Recipe.ReadyInMinutes, StringFormat=' - Ready in about {0} minutes'}" FontSize="Small"/>
 
                 <Label FontSize="Micro"/>

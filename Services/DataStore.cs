@@ -39,41 +39,5 @@ namespace DPS_926___App_2.Services
         {
             return database.DeleteAsync(recipe);
         }
-
-        /*
-        public async Task<bool> AddItemAsync(Recipe item)
-        {
-            recipes.Add(item);
-
-            return await Task.FromResult(true);
-        }
-
-        public async Task<bool> UpdateItemAsync(Recipe item)
-        {
-            var oldItem = recipes.Where((Recipe arg) => arg.ID == item.ID).FirstOrDefault();
-            recipes.Remove(oldItem);
-            recipes.Add(item);
-
-            return await Task.FromResult(true);
-        }
-
-        public async Task<bool> DeleteItemAsync(string id)
-        {
-            var oldItem = recipes.Where((Recipe arg) => $"{arg.ID}" == id).FirstOrDefault();
-            recipes.Remove(oldItem);
-
-            return await Task.FromResult(true);
-        }
-
-        public async Task<Recipe> GetItemAsync(string id)
-        {
-            return await Task.FromResult(recipes.FirstOrDefault(s => $"{s.ID}" == id));
-        }
-
-        public async Task<IEnumerable<Recipe>> GetItemsAsync(bool forceRefresh = false)
-        {
-            return await Task.FromResult(recipes);
-        }
-        */
     }
 }

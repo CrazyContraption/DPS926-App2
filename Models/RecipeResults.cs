@@ -2,9 +2,9 @@
 {
     public class RecipeResults /// : RecipeResult
     {
-        public RecipeResult[] results { get; set; }
-        public int offset { get; set; }
-        public int number { get; set; }
-        public int totalResults { get; set; }
+        public RecipeResult[] Results { get; set; }
+        public int Offset { get; set; }
+        public int Number { get; set; }
+        public int TotalResults { get; set; }
     }
 }

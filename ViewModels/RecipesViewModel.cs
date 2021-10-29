@@ -57,13 +57,13 @@ namespace DPS_926___App_2.ViewModels
                     Recipes.Clear();
                     RecipeResults recipes = await Services.WebClient.GetRecipesByTerm(recipeTerm);
 
-                    if (recipes.totalResults <= 0)
+                    if (recipes.TotalResults <= 0)
                     {
                         await Application.Current.MainPage.DisplayAlert("Opps!", "Sorry, we couldn't find any recipes for you.", "Ok");
                         await Shell.Current.GoToAsync("..");
                     }
 
-                    foreach (RecipeResult recipe in recipes.results)
+                    foreach (RecipeResult recipe in recipes.Results)
                         Recipes.Add(recipe);
                 }
             }
@@ -92,6 +92,7 @@ namespace DPS_926___App_2.ViewModels
                     await Shell.Current.GoToAsync("//HomePage", true);
                 }
 
+                Recipes.Clear();
                 foreach (SavedRecipe recipe in recipes)
                     Recipes.Add(new RecipeResult(recipe));
 

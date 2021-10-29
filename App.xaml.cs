@@ -22,22 +22,7 @@ namespace DPS_926___App_2
         public App()
         {
             InitializeComponent();
-
-            //DependencyService.Register<DataStore>();
-
             MainPage = new AppShell();
-        }
-
-        protected override void OnStart()
-        {
-        }
-
-        protected override void OnSleep()
-        {
-        }
-
-        protected override void OnResume()
-        {
         }
     }
 }
