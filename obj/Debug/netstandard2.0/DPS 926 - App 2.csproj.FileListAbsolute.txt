@@ -1,0 +1,18 @@
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\bin\Debug\netstandard2.0\DPS 926 - App 2.deps.json
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\bin\Debug\netstandard2.0\DPS 926 - App 2.dll
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\bin\Debug\netstandard2.0\ref\DPS 926 - App 2.dll
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\bin\Debug\netstandard2.0\DPS 926 - App 2.pdb
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.AssemblyInfoInputs.cache
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.AssemblyInfo.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.csproj.CoreCompileInputs.cache
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.dll
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\ref\DPS 926 - App 2.dll
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.pdb
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\Views\RecipeDetailPage.xaml.g.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\Views\RecipesPage.xaml.g.cs
+C:\Users\Crazy\source\repos\DPS 926 - App 2\DPS 926 - App 2\DPS 926 - App 2\obj\Debug\netstandard2.0\DPS 926 - App 2.csproj.AssemblyReference.cache

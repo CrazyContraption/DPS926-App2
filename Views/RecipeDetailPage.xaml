@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DPS_926___App_2.ViewModels"  
+             x:DataType="local:RecipeDetailViewModel"
+             x:Class="DPS_926___App_2.Views.RecipeDetailPage"
+             Title="{Binding Recipe.Title}">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="ToolBarButton" Text="{Binding ToolBarText}" Command="{Binding SaveRecipe}"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Spacing="20">
+            <Image Grid.ColumnSpan="2" Source="{Binding Recipe.Image}" HeightRequest="275"/>
+
+            <StackLayout Grid.Row="1" Spacing="7" Padding="15">
+                <Label Text="{Binding Recipe.Title}" FontSize="Medium"/>
+                <Label Text="{Binding Recipe.Summary}" TextType="Html" FontSize="Small"/>
+                <Label Text="{Binding Recipe.Likes, StringFormat='  {0} Likes'}" FontSize="Small"/>
+
+                <Label FontSize="Micro"/>
+
+                <Label Text="Information" FontSize="Medium"/>
+                <Label Text="{Binding Recipe.PricePerServing, StringFormat=' - Costs about {0} CAD per serving'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.Servings, StringFormat=' - Serves about {0} people'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.ReadyInMinutes, StringFormat=' - Ready in about {0} minutes'}" FontSize="Small"/>
+
+                <Label FontSize="Micro"/>
+
+                <Label Text="Allergens" FontSize="Medium"/>
+                <Label Text="{Binding Recipe.DairyFree,  StringFormat=' Dairy Free             - {0}'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.GlutenFree, StringFormat=' Gluten Free          - {0}'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.Vegan,      StringFormat=' Vegan Safe          - {0}'}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.Vegitarian, StringFormat=' Vegitarian Safe   - {0}'}" FontSize="Small"/>
+
+                <Label FontSize="Micro"/>
+
+                <Label Text="Instructions" FontSize="Medium"/>
+                <Label Text="{Binding Recipe.Instructions}" TextType="Html" FontSize="Small"/>
+
+                <Label FontSize="Micro"/>
+
+                <Label Text="Credits" FontSize="Medium"/>
+                <Label Text="{Binding Recipe.CreditsText}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.SourceUrl}" FontSize="Small"/>
+                <Label Text="{Binding Recipe.License}" FontSize="Small"/>
+
+                <Label FontSize="Micro"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

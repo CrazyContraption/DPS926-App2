@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DPS_926___App_2.Views.RecipesPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:DPS_926___App_2.ViewModels"  
+             xmlns:model="clr-namespace:DPS_926___App_2.Models">
+
+    <RefreshView x:Name="RecipesRefresh" x:DataType="local:RecipesViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <CollectionView x:Name="RecipesListView"
+                        SelectionChangedCommand="{Binding SearchResults_SelectionChanged}"
+                        SelectionChangedCommandParameter="{Binding SelectedItem, Source={x:Reference RecipesListView}}"
+                        ItemsSource="{Binding Recipes}"
+                        SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="1" x:DataType="model:RecipeResult">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding Image}" Grid.Column="0" HorizontalOptions="Start"/>
+                        <Label Text="{Binding Title}"
+                               Grid.Column="1"
+                               LineBreakMode="WordWrap" 
+                               Style="{DynamicResource ListItemTextStyle}" 
+                               FontSize="20" HorizontalOptions="Start" VerticalTextAlignment="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>
